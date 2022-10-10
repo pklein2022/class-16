@@ -4,12 +4,12 @@
 // For every number that is a multiple of 5 and 3, log to the console "Fizz Buzz".
 
 for (let i = 0; i <= 100; i++) {
-  if (i % 3 == 0) {
+  if (i % 3 === 0) {
     console.log(i + " Fizz")
-  } if (i % 5 == 0) {
+  } if (i % 5 === 0) {
     console.log(i + " Buzz")
   }
-    if (i % 3 == 0 && i % 5 == 0){
+    if (i % 3 === 0 && i % 5 === 0){
     console.log(i + " Fizz Buzz")
   }
 }
